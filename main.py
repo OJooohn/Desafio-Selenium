@@ -121,7 +121,7 @@ for item in lista:
     lista_nome_quant.append((item, quant))
 
 lista_nome_quant.sort(key=lambda x: x[1], reverse=True)
-itens_relevantes = lista_nome_quant[:10]
+itens_relevantes = lista_nome_quant[:5]
 for item in lista_nome_quant:
     print(f'Nome: {item[0]}, Quantidade: {item[1]}')
 
